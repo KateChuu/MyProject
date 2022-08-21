@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+header h1 {
+    color: firebrick;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left; */
+}
+.productInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30%;
+    width: 99vw;
+    color: steelblue;
+    
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.productTd {
+    width: 19vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.button {
+    background: steelblue;
+    border-radius: 20%;
+    font-size: 1em;
+    height: 40px; 
+    width: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button a:link, .button a:visited {
+    color:snow;
+    text-decoration: none;
+}
+.button:hover {
+    background: firebrick;
+    transform: translateY(2px);
+}
+
+@media(max-width: 700px) {
+    .productInfo {
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* header */
+header {
+    color: firebrick;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.memberInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30%;
+    width: 88vw;
+    color: steelblue;
+}
+.memberTd {
+    width: 22vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* section */
+section {
+    margin-top: 60px;
+
+    color: steelblue;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+input {
+    display: inline;
+    height: 30px;
+    width: 300px;
+    color: steelblue;
+    font-size: 20px;
+}
+button {
+    background: steelblue;
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    color: snow;
+    border: none;
+    border-radius: 20%;
+}
+button:hover {
+    background: firebrick;
+    transform: translateY(2px);
+}
+.photoButton {
+    width: 100px;
+}
+
+/* @media(max-width: 700px) {
+    section {
+        display: none;
+    }
+} */

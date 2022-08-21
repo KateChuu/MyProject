@@ -1,0 +1,58 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = "final\ project.o" dayThree.o friday_m.o GameGuessNum.o thursday_n.o timer.o 管理數學.o main_supper.o Snake.o end.o game_bomb1.o
+LINKOBJ  = "final project.o" dayThree.o friday_m.o GameGuessNum.o thursday_n.o timer.o 管理數學.o main_supper.o Snake.o end.o game_bomb1.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -l winmm -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Project1.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+"final\ project.o": final\ project.c
+	$(CC) -c "final project.c" -o "final project.o" $(CFLAGS)
+
+dayThree.o: dayThree.c
+	$(CC) -c dayThree.c -o dayThree.o $(CFLAGS)
+
+friday_m.o: friday_m.c
+	$(CC) -c friday_m.c -o friday_m.o $(CFLAGS)
+
+GameGuessNum.o: GameGuessNum.c
+	$(CC) -c GameGuessNum.c -o GameGuessNum.o $(CFLAGS)
+
+thursday_n.o: thursday_n.c
+	$(CC) -c thursday_n.c -o thursday_n.o $(CFLAGS)
+
+timer.o: timer.c
+	$(CC) -c timer.c -o timer.o $(CFLAGS)
+
+管理數學.o: 管理數學.c
+	$(CC) -c 管理數學.c -o 管理數學.o $(CFLAGS)
+
+main_supper.o: main_supper.c
+	$(CC) -c main_supper.c -o main_supper.o $(CFLAGS)
+
+Snake.o: Snake.c
+	$(CC) -c Snake.c -o Snake.o $(CFLAGS)
+
+end.o: end.c
+	$(CC) -c end.c -o end.o $(CFLAGS)
+
+game_bomb1.o: game_bomb1.c
+	$(CC) -c game_bomb1.c -o game_bomb1.o $(CFLAGS)
