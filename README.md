@@ -21,7 +21,7 @@ I completed this project when I was a sophomore with HTML, CSS, JavaScript, PHP 
 
 5. dining_philosophers_problem: 
 This is the project of Operating System.
-We use C language and threads to deal with the classic dining philosopher problem in 3 ways, 
+We use C and threads to deal with the classic dining philosopher problem in 3 ways, 
 which are arbitrator, hierarchy and Chandy.
 I completed this project when I was a junior.
 
