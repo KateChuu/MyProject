@@ -1,3 +1,5 @@
+Welcome to KateChu's github!
+
 1. easy_games: 
 The combination of several text games which are programed in C and the project of Computer Programming course. 
 I completed it when I was a freshman.
@@ -25,4 +27,12 @@ We use C and threads to deal with the classic dining philosopher problem in 3 wa
 which are arbitrator, hierarchy and Chandy.
 I completed this project when I was a junior.
 
-Thanks for visiting! Every comments and suggestion are welcomed!
+6. object-oriented_programming
+This file contains all the lectures, homework and code of the course 
+'Object-oriented programming'.
+The course foucused on cleaning, visualizing, analyzing data, and the introduction of machine learning. All the programs were write in Python.
+I took this course when I was a senior.
+
+Finally, 'Introduction of python', 'Introduction of data science' and 'Applied plotting, charting & data represetation' are the coursera tutorials I took online.
+
+Thanks for visiting! Any comments and suggestion are appreciated!
